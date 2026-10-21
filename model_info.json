@@ -1,0 +1,56 @@
+{
+  "name": "Cinnamoroll plush specimen",
+  "source": "E:\\doll (49 reference photos)",
+  "method": "silhouette-measured procedural reconstruction, clean editable cage topology",
+  "units": "meters",
+  "dimensions": {
+    "height_m": 0.2213,
+    "width_m": 0.1742,
+    "depth_m": 0.1262,
+    "bounds_min": [-0.0870, -0.0548, 0.0],
+    "bounds_max": [0.0872, 0.0714, 0.2213]
+  },
+  "mesh": {
+    "glb_object": "Cinnamoroll_Specimen_TriMesh",
+    "vertices": 39452,
+    "triangles": 78708,
+    "non_tri_faces": 0,
+    "materials": 15,
+    "textures": [
+      {
+        "name": "tie_stripes",
+        "size": [512, 512],
+        "embedded": true
+      }
+    ]
+  },
+  "axes": {
+    "blender_up": "Z",
+    "blender_front": "-Y",
+    "glb_up": "Y",
+    "ground_z_m": 0.0
+  },
+  "blend": {
+    "model_meshes": 50,
+    "collections": [
+      "01_Head",
+      "02_Face",
+      "03_Ears",
+      "04_Headphones",
+      "05_Body_Shirt",
+      "06_Shorts_Feet",
+      "07_Backpack"
+    ],
+    "root": "Cinnamoroll_Root",
+    "modifier_pipeline": "editable cage + Bevel/Solidify/Subdivision + Triangulate"
+  },
+  "files": {
+    "glb": "cinnamoroll_specimen.glb",
+    "blend": "cinnamoroll_specimen.blend",
+    "hero": "renders/hero_three_quarter.png",
+    "turnaround": "renders/turnaround_sheet.jpg",
+    "comparison": "renders/reference_comparison.jpg",
+    "topology_full": "renders/topology_full.png",
+    "topology_face": "renders/topology_face.png"
+  }
+}
