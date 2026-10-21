@@ -20,11 +20,11 @@ A small archival website for a Cinnamoroll plush reconstructed as an editable tr
 |---|---|
 | Source | 49 photographs from `E:\doll` |
 | Reconstruction | silhouette-measured parametric cage |
-| Dimensions | 221.3 × 174.2 × 126.2 mm |
-| Mesh | 39,452 vertices / **78,708 triangles** |
-| Materials | 15 PBR base materials · 1 embedded 512² texture |
+| Dimensions | 222.8 × 191.7 × 122.8 mm |
+| Mesh | 37,840 vertices / **75,488 triangles** |
+| Materials | 16 PBR base materials · 1 embedded 512² texture |
 | GLB | single object, all triangles, Y-up, feet at Y = 0 after import |
-| BLEND | 50 named parts, editable cages, Triangulate modifier at the end |
+| BLEND | 51 named parts, editable cages, Triangulate modifier at the end |
 
 ## Local preview
 
