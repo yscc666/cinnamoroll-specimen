@@ -1,21 +1,22 @@
 {
   "name": "Cinnamoroll plush specimen",
+  "version": 2,
   "source": "E:\\doll (49 reference photos)",
   "method": "silhouette-measured procedural reconstruction, clean editable cage topology",
   "units": "meters",
   "dimensions": {
-    "height_m": 0.2213,
-    "width_m": 0.1742,
-    "depth_m": 0.1262,
-    "bounds_min": [-0.0870, -0.0548, 0.0],
-    "bounds_max": [0.0872, 0.0714, 0.2213]
+    "height_m": 0.2228,
+    "width_m": 0.1917,
+    "depth_m": 0.1228,
+    "bounds_min": [-0.0957, -0.0562, 0.0],
+    "bounds_max": [0.0960, 0.0666, 0.2228]
   },
   "mesh": {
     "glb_object": "Cinnamoroll_Specimen_TriMesh",
-    "vertices": 39452,
-    "triangles": 78708,
+    "vertices": 37840,
+    "triangles": 75488,
     "non_tri_faces": 0,
-    "materials": 15,
+    "materials": 16,
     "textures": [
       {
         "name": "tie_stripes",
@@ -31,7 +32,7 @@
     "ground_z_m": 0.0
   },
   "blend": {
-    "model_meshes": 50,
+    "model_meshes": 51,
     "collections": [
       "01_Head",
       "02_Face",
